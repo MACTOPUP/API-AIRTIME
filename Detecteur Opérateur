@@ -4,7 +4,7 @@ API permettant de détecter l'opérateur mobile
 L' API est appelée par l'url "https://mactopup.com/api/detect_operator" stocké dans la variable  $base_url 
 
 
-<code>
+```php
 <?php
 
 $base_url = "https://mactopup.com/api/detect_operator";
@@ -39,8 +39,7 @@ var_dump($response);
 echo "</pre>";
 
 ?>
-
-</code>
+\```
 
 
 
